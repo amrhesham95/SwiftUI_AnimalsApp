@@ -47,6 +47,7 @@
 		EFF8344C267A22F0008EB5BB = {
 			isa = PBXGroup;
 			children = (
+				EFF83475267A25B5008EB5BB /* Videos */,
 				EFF83451267A22F0008EB5BB /* Shared */,
 				EFF8345B267A22F1008EB5BB /* iOS */,
 				EFF83462267A22F1008EB5BB /* macOS */,
@@ -88,6 +89,13 @@
 				EFF83464267A22F1008EB5BB /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		EFF83475267A25B5008EB5BB /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
