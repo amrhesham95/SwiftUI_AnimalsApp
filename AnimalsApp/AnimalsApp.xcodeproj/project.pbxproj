@@ -51,6 +51,8 @@
 		EFF834BD267A29C3008EB5BB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834BB267A29C3008EB5BB /* MainView.swift */; };
 		EFF834C3267A30C3008EB5BB /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834C2267A30C3008EB5BB /* CoverImageView.swift */; };
 		EFF834C4267A30C3008EB5BB /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834C2267A30C3008EB5BB /* CoverImageView.swift */; };
+		EFF834C9267A3382008EB5BB /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834C8267A3382008EB5BB /* CoverImage.swift */; };
+		EFF834CA267A3382008EB5BB /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834C8267A3382008EB5BB /* CoverImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,7 @@
 		EFF834B6267A29B6008EB5BB /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		EFF834BB267A29C3008EB5BB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EFF834C2267A30C3008EB5BB /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		EFF834C8267A3382008EB5BB /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,7 @@
 		EFF83496267A26B1008EB5BB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EFF834C7267A3372008EB5BB /* Model */,
 				EFF8349A267A26CB008EB5BB /* animals.json */,
 				EFF83499267A26CB008EB5BB /* covers.json */,
 				EFF83497267A26CB008EB5BB /* locations.json */,
@@ -188,6 +192,14 @@
 				EFF834C2267A30C3008EB5BB /* CoverImageView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		EFF834C7267A3372008EB5BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFF834C8267A3382008EB5BB /* CoverImage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +330,7 @@
 				EFF83467267A22F1008EB5BB /* ContentView.swift in Sources */,
 				EFF834BC267A29C3008EB5BB /* MainView.swift in Sources */,
 				EFF834C3267A30C3008EB5BB /* CoverImageView.swift in Sources */,
+				EFF834C9267A3382008EB5BB /* CoverImage.swift in Sources */,
 				EFF834B2267A29A5008EB5BB /* MapView.swift in Sources */,
 				EFF83465267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834AD267A2995008EB5BB /* VideosListView.swift in Sources */,
@@ -332,6 +345,7 @@
 				EFF83468267A22F1008EB5BB /* ContentView.swift in Sources */,
 				EFF834BD267A29C3008EB5BB /* MainView.swift in Sources */,
 				EFF834C4267A30C3008EB5BB /* CoverImageView.swift in Sources */,
+				EFF834CA267A3382008EB5BB /* CoverImage.swift in Sources */,
 				EFF834B3267A29A5008EB5BB /* MapView.swift in Sources */,
 				EFF83466267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834AE267A2995008EB5BB /* VideosListView.swift in Sources */,
