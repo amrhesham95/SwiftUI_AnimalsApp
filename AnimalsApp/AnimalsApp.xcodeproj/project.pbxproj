@@ -65,6 +65,8 @@
 		EFF834EB267B6E1A008EB5BB /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834E9267B6E1A008EB5BB /* HeadingView.swift */; };
 		EFF834EF267B7040008EB5BB /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834EE267B7040008EB5BB /* InsetGalleryView.swift */; };
 		EFF834F0267B7040008EB5BB /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834EE267B7040008EB5BB /* InsetGalleryView.swift */; };
+		EFF834F4267B84B2008EB5BB /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834F3267B84B2008EB5BB /* InsetFactView.swift */; };
+		EFF834F5267B84B2008EB5BB /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834F3267B84B2008EB5BB /* InsetFactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +104,7 @@
 		EFF834E2267B6639008EB5BB /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		EFF834E9267B6E1A008EB5BB /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		EFF834EE267B7040008EB5BB /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		EFF834F3267B84B2008EB5BB /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +241,7 @@
 				EFF834E2267B6639008EB5BB /* AnimalDetailView.swift */,
 				EFF834E9267B6E1A008EB5BB /* HeadingView.swift */,
 				EFF834EE267B7040008EB5BB /* InsetGalleryView.swift */,
+				EFF834F3267B84B2008EB5BB /* InsetFactView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -370,6 +374,7 @@
 				EFF834DD267B567A008EB5BB /* Animal.swift in Sources */,
 				EFF83467267A22F1008EB5BB /* ContentView.swift in Sources */,
 				EFF834BC267A29C3008EB5BB /* MainView.swift in Sources */,
+				EFF834F4267B84B2008EB5BB /* InsetFactView.swift in Sources */,
 				EFF834C3267A30C3008EB5BB /* CoverImageView.swift in Sources */,
 				EFF834C9267A3382008EB5BB /* CoverImage.swift in Sources */,
 				EFF834E3267B6639008EB5BB /* AnimalDetailView.swift in Sources */,
@@ -391,6 +396,7 @@
 				EFF834DE267B567A008EB5BB /* Animal.swift in Sources */,
 				EFF83468267A22F1008EB5BB /* ContentView.swift in Sources */,
 				EFF834BD267A29C3008EB5BB /* MainView.swift in Sources */,
+				EFF834F5267B84B2008EB5BB /* InsetFactView.swift in Sources */,
 				EFF834C4267A30C3008EB5BB /* CoverImageView.swift in Sources */,
 				EFF834CA267A3382008EB5BB /* CoverImage.swift in Sources */,
 				EFF834E4267B6639008EB5BB /* AnimalDetailView.swift in Sources */,

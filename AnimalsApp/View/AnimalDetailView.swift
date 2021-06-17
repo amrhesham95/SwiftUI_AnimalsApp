@@ -51,7 +51,13 @@ struct AnimalDetailView: View {
                 
                 
                 // FACTS
-                
+                Group {
+                    HeadingView(headingImage: "questionmark.circle", headingTitle: "Wilderness in Pictures")
+                    
+                    InsetFactView(animal: animal)
+                }
+                .padding(.horizontal)
+
                 // Description
                 
                 // MAP
