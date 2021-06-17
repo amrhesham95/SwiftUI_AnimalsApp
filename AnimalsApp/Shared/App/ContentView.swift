@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Content")
-            .padding()
+        NavigationView {
+            List {
+                CoverImageView()
+            }
+            .navigationBarTitle("Africa", displayMode: .large)
+        } // Navigation
     }
 }
 
