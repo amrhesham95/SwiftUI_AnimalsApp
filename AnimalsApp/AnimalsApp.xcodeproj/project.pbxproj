@@ -55,6 +55,10 @@
 		EFF834CA267A3382008EB5BB /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834C8267A3382008EB5BB /* CoverImage.swift */; };
 		EFF834D3267A3497008EB5BB /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834D2267A3497008EB5BB /* CodableBundleExtension.swift */; };
 		EFF834D4267A3497008EB5BB /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834D2267A3497008EB5BB /* CodableBundleExtension.swift */; };
+		EFF834D8267B4118008EB5BB /* AnimalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834D7267B4118008EB5BB /* AnimalRowView.swift */; };
+		EFF834D9267B4118008EB5BB /* AnimalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834D7267B4118008EB5BB /* AnimalRowView.swift */; };
+		EFF834DD267B567A008EB5BB /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834DC267B567A008EB5BB /* Animal.swift */; };
+		EFF834DE267B567A008EB5BB /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834DC267B567A008EB5BB /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +91,8 @@
 		EFF834C2267A30C3008EB5BB /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		EFF834C8267A3382008EB5BB /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 		EFF834D2267A3497008EB5BB /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		EFF834D7267B4118008EB5BB /* AnimalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRowView.swift; sourceTree = "<group>"; };
+		EFF834DC267B567A008EB5BB /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +200,7 @@
 				EFF834B6267A29B6008EB5BB /* GalleryView.swift */,
 				EFF834BB267A29C3008EB5BB /* MainView.swift */,
 				EFF834C2267A30C3008EB5BB /* CoverImageView.swift */,
+				EFF834D7267B4118008EB5BB /* AnimalRowView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -202,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				EFF834C8267A3382008EB5BB /* CoverImage.swift */,
+				EFF834DC267B567A008EB5BB /* Animal.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,11 +347,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF834DD267B567A008EB5BB /* Animal.swift in Sources */,
 				EFF83467267A22F1008EB5BB /* ContentView.swift in Sources */,
 				EFF834BC267A29C3008EB5BB /* MainView.swift in Sources */,
 				EFF834C3267A30C3008EB5BB /* CoverImageView.swift in Sources */,
 				EFF834C9267A3382008EB5BB /* CoverImage.swift in Sources */,
 				EFF834B2267A29A5008EB5BB /* MapView.swift in Sources */,
+				EFF834D8267B4118008EB5BB /* AnimalRowView.swift in Sources */,
 				EFF83465267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834AD267A2995008EB5BB /* VideosListView.swift in Sources */,
 				EFF834B7267A29B6008EB5BB /* GalleryView.swift in Sources */,
@@ -355,11 +365,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF834DE267B567A008EB5BB /* Animal.swift in Sources */,
 				EFF83468267A22F1008EB5BB /* ContentView.swift in Sources */,
 				EFF834BD267A29C3008EB5BB /* MainView.swift in Sources */,
 				EFF834C4267A30C3008EB5BB /* CoverImageView.swift in Sources */,
 				EFF834CA267A3382008EB5BB /* CoverImage.swift in Sources */,
 				EFF834B3267A29A5008EB5BB /* MapView.swift in Sources */,
+				EFF834D9267B4118008EB5BB /* AnimalRowView.swift in Sources */,
 				EFF83466267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834AE267A2995008EB5BB /* VideosListView.swift in Sources */,
 				EFF834B8267A29B6008EB5BB /* GalleryView.swift in Sources */,

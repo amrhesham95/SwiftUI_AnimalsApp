@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        let animals: [Animal]? = Bundle.main.decode("animals.json")
+        
         NavigationView {
             List {
                 CoverImageView()
+                
+                ForEach(animals!) { animal in
+                    AnimalRowView(animal: animal)
+                }
             }
             .navigationBarTitle("Africa", displayMode: .large)
         } // Navigation
