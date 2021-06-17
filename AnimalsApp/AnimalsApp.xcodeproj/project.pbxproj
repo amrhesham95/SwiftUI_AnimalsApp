@@ -67,6 +67,8 @@
 		EFF834F0267B7040008EB5BB /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834EE267B7040008EB5BB /* InsetGalleryView.swift */; };
 		EFF834F4267B84B2008EB5BB /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834F3267B84B2008EB5BB /* InsetFactView.swift */; };
 		EFF834F5267B84B2008EB5BB /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834F3267B84B2008EB5BB /* InsetFactView.swift */; };
+		EFF834F9267B878D008EB5BB /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834F8267B878D008EB5BB /* InsetMapView.swift */; };
+		EFF834FA267B878D008EB5BB /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF834F8267B878D008EB5BB /* InsetMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +107,7 @@
 		EFF834E9267B6E1A008EB5BB /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		EFF834EE267B7040008EB5BB /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		EFF834F3267B84B2008EB5BB /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		EFF834F8267B878D008EB5BB /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +245,7 @@
 				EFF834E9267B6E1A008EB5BB /* HeadingView.swift */,
 				EFF834EE267B7040008EB5BB /* InsetGalleryView.swift */,
 				EFF834F3267B84B2008EB5BB /* InsetFactView.swift */,
+				EFF834F8267B878D008EB5BB /* InsetMapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -380,6 +384,7 @@
 				EFF834E3267B6639008EB5BB /* AnimalDetailView.swift in Sources */,
 				EFF834B2267A29A5008EB5BB /* MapView.swift in Sources */,
 				EFF834D8267B4118008EB5BB /* AnimalRowView.swift in Sources */,
+				EFF834F9267B878D008EB5BB /* InsetMapView.swift in Sources */,
 				EFF83465267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834AD267A2995008EB5BB /* VideosListView.swift in Sources */,
 				EFF834B7267A29B6008EB5BB /* GalleryView.swift in Sources */,
@@ -402,6 +407,7 @@
 				EFF834E4267B6639008EB5BB /* AnimalDetailView.swift in Sources */,
 				EFF834B3267A29A5008EB5BB /* MapView.swift in Sources */,
 				EFF834D9267B4118008EB5BB /* AnimalRowView.swift in Sources */,
+				EFF834FA267B878D008EB5BB /* InsetMapView.swift in Sources */,
 				EFF83466267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834AE267A2995008EB5BB /* VideosListView.swift in Sources */,
 				EFF834B8267A29B6008EB5BB /* GalleryView.swift in Sources */,

@@ -52,16 +52,31 @@ struct AnimalDetailView: View {
                 
                 // FACTS
                 Group {
-                    HeadingView(headingImage: "questionmark.circle", headingTitle: "Wilderness in Pictures")
+                    HeadingView(headingImage: "questionmark.circle", headingTitle: "Did you know?")
                     
                     InsetFactView(animal: animal)
                 }
                 .padding(.horizontal)
 
                 // Description
-                
+                Group {
+                    HeadingView(headingImage: "info.circle", headingTitle: "All about \(animal.name)")
+                    
+                    Text(animal.description)
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)
+                }
+                .padding(.horizontal)
+
+
                 // MAP
-                
+                Group {
+                    HeadingView(headingImage: "map", headingTitle: "National Parks")
+                    
+                    InsetMapView(animal: animal)
+                }
+                .padding(.horizontal)
+
                 // LINK
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             }// VStack
