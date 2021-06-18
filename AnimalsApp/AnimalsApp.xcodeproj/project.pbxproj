@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF5CDC2A267D0F14009EE18B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC29267D0F14009EE18B /* VideoModel.swift */; };
+		EF5CDC2B267D0F14009EE18B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC29267D0F14009EE18B /* VideoModel.swift */; };
+		EF5CDC2F267D0F5A009EE18B /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */; };
+		EF5CDC30267D0F5A009EE18B /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */; };
 		EFF83465267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF83452267A22F0008EB5BB /* AnimalsAppApp.swift */; };
 		EFF83466267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF83452267A22F0008EB5BB /* AnimalsAppApp.swift */; };
 		EFF83467267A22F1008EB5BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF83453267A22F0008EB5BB /* ContentView.swift */; };
@@ -74,6 +78,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF5CDC29267D0F14009EE18B /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 		EFF83452267A22F0008EB5BB /* AnimalsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsAppApp.swift; sourceTree = "<group>"; };
 		EFF83453267A22F0008EB5BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFF83454267A22F1008EB5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -223,6 +229,7 @@
 			children = (
 				EFF834C8267A3382008EB5BB /* CoverImage.swift */,
 				EFF834DC267B567A008EB5BB /* Animal.swift */,
+				EF5CDC29267D0F14009EE18B /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +257,7 @@
 				EFF834F3267B84B2008EB5BB /* InsetFactView.swift */,
 				EFF834F8267B878D008EB5BB /* InsetMapView.swift */,
 				EFF834FD267B8CFC008EB5BB /* ExternalWebLinkView.swift */,
+				EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -389,9 +397,11 @@
 				EFF834B2267A29A5008EB5BB /* MapView.swift in Sources */,
 				EFF834D8267B4118008EB5BB /* AnimalRowView.swift in Sources */,
 				EFF834F9267B878D008EB5BB /* InsetMapView.swift in Sources */,
+				EF5CDC2F267D0F5A009EE18B /* VideoRow.swift in Sources */,
 				EFF83465267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834FE267B8CFC008EB5BB /* ExternalWebLinkView.swift in Sources */,
 				EFF834AD267A2995008EB5BB /* VideosListView.swift in Sources */,
+				EF5CDC2A267D0F14009EE18B /* VideoModel.swift in Sources */,
 				EFF834B7267A29B6008EB5BB /* GalleryView.swift in Sources */,
 				EFF834EF267B7040008EB5BB /* InsetGalleryView.swift in Sources */,
 				EFF834D3267A3497008EB5BB /* CodableBundleExtension.swift in Sources */,
@@ -413,9 +423,11 @@
 				EFF834B3267A29A5008EB5BB /* MapView.swift in Sources */,
 				EFF834D9267B4118008EB5BB /* AnimalRowView.swift in Sources */,
 				EFF834FA267B878D008EB5BB /* InsetMapView.swift in Sources */,
+				EF5CDC30267D0F5A009EE18B /* VideoRow.swift in Sources */,
 				EFF83466267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834FF267B8CFC008EB5BB /* ExternalWebLinkView.swift in Sources */,
 				EFF834AE267A2995008EB5BB /* VideosListView.swift in Sources */,
+				EF5CDC2B267D0F14009EE18B /* VideoModel.swift in Sources */,
 				EFF834B8267A29B6008EB5BB /* GalleryView.swift in Sources */,
 				EFF834F0267B7040008EB5BB /* InsetGalleryView.swift in Sources */,
 				EFF834D4267A3497008EB5BB /* CodableBundleExtension.swift in Sources */,
