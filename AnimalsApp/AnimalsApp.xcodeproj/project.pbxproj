@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF4CF80C2680A9FA00C48F62 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4CF80B2680A9FA00C48F62 /* VideoPlayerHelper.swift */; };
+		EF4CF8122680B36900C48F62 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4CF8112680B36900C48F62 /* LocationModel.swift */; };
 		EF5CDC2A267D0F14009EE18B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC29267D0F14009EE18B /* VideoModel.swift */; };
 		EF5CDC2B267D0F14009EE18B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC29267D0F14009EE18B /* VideoModel.swift */; };
 		EF5CDC2F267D0F5A009EE18B /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */; };
@@ -82,6 +83,7 @@
 
 /* Begin PBXFileReference section */
 		EF4CF80B2680A9FA00C48F62 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		EF4CF8112680B36900C48F62 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		EF5CDC29267D0F14009EE18B /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 		EF5CDC33267D164F009EE18B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				EFF834C8267A3382008EB5BB /* CoverImage.swift */,
 				EFF834DC267B567A008EB5BB /* Animal.swift */,
 				EF5CDC29267D0F14009EE18B /* VideoModel.swift */,
+				EF4CF8112680B36900C48F62 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				EFF834FE267B8CFC008EB5BB /* ExternalWebLinkView.swift in Sources */,
 				EFF834AD267A2995008EB5BB /* VideosListView.swift in Sources */,
 				EF5CDC2A267D0F14009EE18B /* VideoModel.swift in Sources */,
+				EF4CF8122680B36900C48F62 /* LocationModel.swift in Sources */,
 				EFF834B7267A29B6008EB5BB /* GalleryView.swift in Sources */,
 				EFF834EF267B7040008EB5BB /* InsetGalleryView.swift in Sources */,
 				EFF834D3267A3497008EB5BB /* CodableBundleExtension.swift in Sources */,
