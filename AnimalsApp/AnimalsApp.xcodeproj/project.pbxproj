@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4CF80C2680A9FA00C48F62 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4CF80B2680A9FA00C48F62 /* VideoPlayerHelper.swift */; };
 		EF5CDC2A267D0F14009EE18B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC29267D0F14009EE18B /* VideoModel.swift */; };
 		EF5CDC2B267D0F14009EE18B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC29267D0F14009EE18B /* VideoModel.swift */; };
 		EF5CDC2F267D0F5A009EE18B /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */; };
 		EF5CDC30267D0F5A009EE18B /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */; };
+		EF5CDC34267D164F009EE18B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC33267D164F009EE18B /* VideoPlayerView.swift */; };
+		EF5CDC35267D164F009EE18B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC33267D164F009EE18B /* VideoPlayerView.swift */; };
 		EFF83465267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF83452267A22F0008EB5BB /* AnimalsAppApp.swift */; };
 		EFF83466267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF83452267A22F0008EB5BB /* AnimalsAppApp.swift */; };
 		EFF83467267A22F1008EB5BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF83453267A22F0008EB5BB /* ContentView.swift */; };
@@ -78,8 +81,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF4CF80B2680A9FA00C48F62 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		EF5CDC29267D0F14009EE18B /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
+		EF5CDC33267D164F009EE18B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		EFF83452267A22F0008EB5BB /* AnimalsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsAppApp.swift; sourceTree = "<group>"; };
 		EFF83453267A22F0008EB5BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFF83454267A22F1008EB5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,9 +142,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF4CF80A2680A9E800C48F62 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CF80B2680A9FA00C48F62 /* VideoPlayerHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EFF8344C267A22F0008EB5BB = {
 			isa = PBXGroup;
 			children = (
+				EF4CF80A2680A9E800C48F62 /* Helpers */,
 				EFF834E1267B6609008EB5BB /* View */,
 				EFF834D1267A3482008EB5BB /* Extensions */,
 				EFF83496267A26B1008EB5BB /* Data */,
@@ -258,6 +272,7 @@
 				EFF834F8267B878D008EB5BB /* InsetMapView.swift */,
 				EFF834FD267B8CFC008EB5BB /* ExternalWebLinkView.swift */,
 				EF5CDC2E267D0F5A009EE18B /* VideoRow.swift */,
+				EF5CDC33267D164F009EE18B /* VideoPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -397,6 +412,7 @@
 				EFF834B2267A29A5008EB5BB /* MapView.swift in Sources */,
 				EFF834D8267B4118008EB5BB /* AnimalRowView.swift in Sources */,
 				EFF834F9267B878D008EB5BB /* InsetMapView.swift in Sources */,
+				EF4CF80C2680A9FA00C48F62 /* VideoPlayerHelper.swift in Sources */,
 				EF5CDC2F267D0F5A009EE18B /* VideoRow.swift in Sources */,
 				EFF83465267A22F1008EB5BB /* AnimalsAppApp.swift in Sources */,
 				EFF834FE267B8CFC008EB5BB /* ExternalWebLinkView.swift in Sources */,
@@ -406,6 +422,7 @@
 				EFF834EF267B7040008EB5BB /* InsetGalleryView.swift in Sources */,
 				EFF834D3267A3497008EB5BB /* CodableBundleExtension.swift in Sources */,
 				EFF834EA267B6E1A008EB5BB /* HeadingView.swift in Sources */,
+				EF5CDC34267D164F009EE18B /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +449,7 @@
 				EFF834F0267B7040008EB5BB /* InsetGalleryView.swift in Sources */,
 				EFF834D4267A3497008EB5BB /* CodableBundleExtension.swift in Sources */,
 				EFF834EB267B6E1A008EB5BB /* HeadingView.swift in Sources */,
+				EF5CDC35267D164F009EE18B /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
